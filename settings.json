@@ -1,0 +1,57 @@
+{
+    "editor.bracketPairColorization.enabled": true, // ペアなブラケットに色付け
+    "editor.cursorBlinking": "phase", // カーソルの点滅をじんわりする
+    "editor.cursorSmoothCaretAnimation": true, // カーソルの動きをぬるぬるにする
+    "editor.cursorStyle": "block", // カーソルのスタイル
+    "editor.dragAndDrop": false, // ドラッグ&ドロップでテキスト移動の誤爆を防止
+    "editor.fontFamily": "Fira Code, PlemolJP", // 英字はFira Codeで日本語はプレモル
+    "editor.fontLigatures": true, // 合字を有効化
+    "editor.fontSize": 12,
+    "editor.formatOnSave": true, // 保存時に自動的に整形
+    "editor.gotoLocation.multipleReferences": "goto", // 定義箇所に飛ぶ機能で、複数の候補がある時最初の候補に飛ぶ
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.minimap.enabled": false, // 右側の小さいマップは邪魔なので消す。
+    "editor.renderLineHighlight": "gutter", // 選択行の強調を行番号部分のみに
+    "editor.renderWhitespace": "boundary", // 単語間以外のスペースをポチで表示。
+    "editor.rulers": [ // 特定の文字数の所に縦線を入れる。
+        {
+            "column": 80,
+            "color": "#eeff003b"
+        },
+        {
+            "column": 100,
+            "color": "#ff00003b"
+        },
+    ],
+    "editor.showFoldingControls": "always", // エディター左の折りたたみ記号を常時表示
+    "editor.smoothScrolling": true, // いまいち効果が実感できない...
+    "editor.stickyTabStops": true, // Pythonとかのインデントスペースをタブっぽく扱う
+    "editor.wordWrap": "wordWrapColumn", //下と合わせて100文字で折り返す
+    "editor.wordWrapColumn": 100,
+    "workbench.activityBar.visible": false, // アクティビティバーは見えなくてOK
+    "workbench.colorTheme": "Night Owl (No Italics)", // カラーテーマはお好み
+    "workbench.editor.highlightModifiedTabs": true, // 保存されていないタブの上に線を引く
+    "workbench.editor.openPositioning": "left", // 左にタブを開く
+    "workbench.editor.tabCloseButton": "off", // タブの閉じるボタンを消す(誤爆防止)
+    "workbench.iconTheme": "material-icon-theme", // iconもお好み
+    "workbench.list.openMode": "doubleClick", // ダブルクリックでファイルとか開くようにする
+    "workbench.list.smoothScrolling": true, // いまいち効果が実感できない...
+    "workbench.sideBar.location": "right", // 大体VSCodeを画面の右側におくことが多いので...
+    "files.exclude": { // エクスプローラーに表示しないファイル pycacheいらない
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+    },
+    "files.insertFinalNewline": true, // 自動的に最後に改行を入れる(NoNewLine防止)
+    "files.trimFinalNewlines": true, // 自動的に無駄な末尾空行を削除する
+    "files.trimTrailingWhitespace": true, // 自動的に末尾の無駄な空白を削除する
+    "explorer.openEditors.visible": 0, // 「開いているエディター」は表示しない
+    "breadcrumbs.enabled": false, // パンくずリストは使わない
+}
